@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" prefWidth="960" prefHeight="540">
+  <MenuBar VBox.vgrow="NEVER">
+    <Menu mnemonicParsing="false" text="File">
+      <MenuItem mnemonicParsing="false" onAction="#logout" text="Logout"/>
+      <MenuItem mnemonicParsing="false" onAction="#openSettings" text="Settings"/>
+      <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+      <MenuItem mnemonicParsing="false" onAction="#openAbout" text="About PkManage"/>
+    </Menu>
+  </MenuBar>
+  <BorderPane fx:id="rootMountPoint" VBox.vgrow="ALWAYS">
+  </BorderPane>
+</VBox>
